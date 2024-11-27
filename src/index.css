@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  transition: 0.15s ease-out;
+}
+
+body {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(2, 3, 45);
+}
+
+button {
+  width: 400px;
+  height: 45px;
+  font-size: 1.3em;
+  margin: 5px;
+  background-color: aliceblue;
+  border: 2px solid #d8d5ff;
+  border-radius: 5px;
+  font-size: 25px;
+  font-family: "Roboto Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  background-color: #2e4082;
+  color: azure;
+  cursor: pointer;
+}
+button:hover {
+  background-color: azure;
+  color: #2e4082;
+  border-color: #2e4082;
+}
+
+.next {
+  margin-top: 20px;
+  background-color: rgb(74, 74, 74);
+}
+
+.calculate {
+  margin-top: 20px;
+  background-color: rgb(99, 0, 99);
+}
+
+.calculate:hover {
+  background-color: azure;
+  border-color: rgb(99, 0, 99);
+  color: rgb(99, 0, 99);
+}
+
+.next:hover {
+  background-color: azure;
+  border: rgb(74, 74, 74);
+  color: rgb(74, 74, 74);
+}
+
+h1 {
+  font-size: 40px;
+  font-family: "Ubuntu", serif;
+  color: azure;
+  font-style: normal;
+}
+
+.true-ans {
+  background-color: rgb(203, 255, 125);
+  border-color: green;
+  color: #4d4d4d;
+}
+
+.true-ans:hover {
+  color: greenyellow;
+
+  border-color: greenyellow;
+  background-color: rgb(0, 0, 0);
+}
+.false-ans {
+  background-color: rgb(255, 90, 123);
+  color: #4d4d4d;
+  border-color: red;
+}
+
+.false-ans:hover {
+  color: crimson;
+
+  border-color: crimson;
+  background-color: rgb(0, 0, 0);
+}
+
+.container {
+  width: 430px;
+  height: 400px;
+  border: 3px solid #b9b9b9;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(9, 3, 35);
+}
+
+.welcome {
+  display: block;
+}
+
+.welcome h1 {
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  padding-bottom: 80px;
+  color: #cecece;
+  text-shadow: 3px 3px 10px #4d4d4d;
+}
+
+.welcome button {
+  background-color: rgb(220, 220, 220);
+  transition: 0.2s ease-in;
+  color: rgb(22, 22, 22);
+  font-family: "Roboto Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 40px;
+  border-radius: 20px;
+  width: 300px;
+
+  height: 90px;
+}
+
+.welcome button:hover {
+  color: rgb(222, 222, 222);
+  background-color: #4b4b4b;
+  border-color: rgb(205, 205, 205);
+}
+
+.quiz {
+  display: none;
+}
+
+.quiz h1 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.last {
+  display: none;
+}
+
+.last h1 {
+  font-size: 45px;
+  margin-bottom: 60px;
+  text-decoration: underline;
+  color: #4b4b4b;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: azure;
+}
+
+.last h2 {
+  font-size: 35px;
+  color: azure;
+  margin-bottom: 30px;
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.last p {
+  font-size: 30px;
+  color: rgb(233, 134, 220);
+  padding: 10px;
+  border-radius: 10px;
+
+  font-family: "Sour Gummy", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
